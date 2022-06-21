@@ -17,4 +17,4 @@ if [ ! -e "$BASE_DIR/corpora/$FILENAME" ]; then
   fi
 fi
 
-venv/bin/python $BASE_DIR/scripts/make_wiki_corpus.py
+python $BASE_DIR/scripts/make_wiki_corpus.py

@@ -9,11 +9,11 @@ echo Initializing git submodules...
 git submodule init && git submodule update
 echo
 
-# Setup python environment
-echo Setting up python environment...
-virtualenv -p python3 venv || python3 -m venv venv
-venv/bin/pip install -r requirements.txt
-echo
+# # Setup python environment
+# echo Setting up python environment...
+# virtualenv -p python3 venv || python3 -m venv venv
+# venv/bin/pip install -r requirements.txt
+# echo
 
 # Setup julia environment
 echo Setting up julia environment...
