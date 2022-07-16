@@ -16,9 +16,9 @@ echo
 # echo
 
 # Setup julia environment
-echo Setting up julia environment...
-julia --project -e "import Pkg; Pkg.instantiate()"
-echo
+#echo Setting up julia environment...
+#julia --project -e "import Pkg; Pkg.instantiate()"
+#echo
 
 # Make Wiki corpus
 echo Downloading and building Simple Wikipedia corpus...
