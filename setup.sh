@@ -31,12 +31,12 @@ make -C "$BASE_DIR/GloVe"
 scripts/embed.sh scripts/toy_embed.config
 echo
 
-# Evaluate annalogy performance
-echo Evaluating analogy performace...
-scripts/analogy.sh embeddings/vectors-C0-V20-W8-D25-R0.05-E15-S1.bin
-echo
-
-# Run tests
-echo Running tests
-./test
-echo
+## Evaluate annalogy performance
+#echo Evaluating analogy performace...
+#scripts/analogy.sh embeddings/vectors-C0-V20-W8-D25-R0.05-E15-S1.bin
+#echo
+#
+## Run tests
+#echo Running tests
+#./test
+#echo
